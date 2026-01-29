@@ -1,0 +1,9 @@
+# Global ignores
+venv/
+.venv/
+**/venv/
+**/.venv/
+node_modules/
+.env
+__pycache__/
+*.pyc
