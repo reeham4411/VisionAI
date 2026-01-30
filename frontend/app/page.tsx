@@ -39,7 +39,6 @@ export default function Home() {
 
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
-
         videoRef.current.onloadedmetadata = () => {
           videoRef.current?.play();
           setCameraReady(true);
@@ -115,7 +114,8 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-linear-to-br from-emerald-50 via-[#fdfefe] to-[#eef7f3] px-6 py-10">
+    <main className="min-h-screen bg-linear-to-br from-[#f4f8f6] via-[#fbfdfc] to-[#eef3f1] px-6 py-10">
+
       {/* Navbar */}
       <header className="w-full bg-emerald-100 border-b border-emerald-200 mb-12">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">

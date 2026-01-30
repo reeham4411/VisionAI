@@ -1,14 +1,22 @@
+# Core ML
+torch
+torchvision
+torchaudio
 
-# FastAPI
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-python-multipart==0.0.6
+# Vision-Language (BLIP-2)
+transformers
+accelerate
+pillow
 
-# Google Gemini AI (FREE)
-google-generativeai==0.3.2
+# Object Detection (YOLOv8)
+ultralytics
 
 # Image processing
-Pillow==10.2.0
+opencv-python
+numpy
 
-# Environment variables
-python-dotenv==1.0.0
+# Backend (FastAPI)
+fastapi
+uvicorn
+python-multipart
+pydantic
